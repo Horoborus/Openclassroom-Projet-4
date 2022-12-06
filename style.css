@@ -721,7 +721,6 @@ p {
 h2 {
     font-size: 21px;
     line-height: 1.4em;
-    color: #FFF;
 }
 
 h3 {
@@ -743,6 +742,9 @@ a{
 .h2 .text-center.white{
     color: black;
 }
+h2.mg-md.text-center.tc-white{
+    color: #FFF;
+} 
 
 h4 {
     color: #1A1A1A!important;
