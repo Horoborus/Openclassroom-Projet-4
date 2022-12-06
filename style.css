@@ -24,8 +24,14 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: #FFFFFF url("img/pageload-spinneer.gif") no-repeat center center;
 }
+.keywords{
+    color: #cccccc;
+    font-size: 1px;
+    opacity: 0;
+}
+
 
 .bloc {
     width: 100%;
@@ -91,7 +97,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -273,6 +279,8 @@ a:hover {
 }
 
 .row-no-gutters {
+    display: flex;
+    justify-content: space-evenly;
     margin-right: 0;
     margin-left: 0;
 }
@@ -308,7 +316,7 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    height: 40px;
 }
 
 .nav-center .navbar-brand img {
@@ -443,6 +451,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 15px;
 }
 
 .btn {
@@ -511,6 +520,10 @@ button {
 }
 
 .scrollToTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
     width: 40px;
     height: 40px;
     position: fixed;
@@ -526,7 +539,10 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
     opacity: 1;
 }
 
@@ -654,12 +670,9 @@ a {
     color: #575757!important;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 55px;
 }
 
 .hero-bloc-text-sub {
@@ -677,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -694,7 +707,7 @@ p {
     margin-top: 22px;
     color: #FFFFFF!important;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 12px 25px 12px 25px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -702,10 +715,11 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    text-align: center;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 1.4em;
 }
 
@@ -736,7 +750,9 @@ h4 {
 }
 
 .white {
+    text-align: center;
     color: #FFFFFF!important;
+
 }
 
 .portfolio-thumb {
@@ -775,7 +791,9 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF!important;;
 }
 
 .btn-atomic-tangerine {
@@ -790,6 +808,8 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 20px;
+    text-align: center;
 }
 
 .ltc-white:hover {
@@ -818,11 +838,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
