@@ -24,14 +24,21 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinneer.gif") no-repeat center center;
+    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 .keywords{
     color: #cccccc;
     font-size: 15px;
     opacity: 0;
 }
-
+.center-block.image-resize-mode{
+   height: auto;
+   width: 100px;    
+}
+.img-responsive.portfolio-thumb{
+    height: auto;
+    width: 100%;
+}
 
 .bloc {
     width: 100%;
