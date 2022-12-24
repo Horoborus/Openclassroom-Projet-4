@@ -883,7 +883,11 @@ a.social{
     font-weight: 600;
     color: black;
 }
-
+img.center-block.image-resize-mode{
+    height: 100px;
+    width: 100px;
+    
+}
 img.img-responsive.portfolio-thumb{
     width: 320px;
     height: 320px;
